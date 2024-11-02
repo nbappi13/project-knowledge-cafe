@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "cover": "https://ibb.co.com/NYq3nSH",
+      "title": "Mastering JavaScript in 30 Days",
+      "author": "Jane Doe",
+      "author_img": "https://ibb.co.com/CJz85TB",
+      "posted_date": "Mar 10",
+      "reading_time": 8,
+      "hashtags": ["#javascript", "#programming"]
+    },
+    {
+      "id": 2,
+      "cover": "https://ibb.co.com/174ndvt",
+      "title": "Python for Data Science",
+      "author": "John Smith",
+      "author_img": "https://ibb.co.com/h8vv1Nz",
+      "posted_date": "Mar 12",
+      "reading_time": 12,
+      "hashtags": ["#python", "#datascience"]
+    },
+    {
+      "id": 3,
+      "cover": "https://ibb.co.com/tx2H6tP",
+      "title": "Building Web Apps with React",
+      "author": "Emily Johnson",
+      "author_img": "https://ibb.co.com/74xM8zF",
+      "posted_date": "Mar 15",
+      "reading_time": 10,
+      "hashtags": ["#react", "#webdevelopment"]
+    },
+    {
+      "id": 4,
+      "cover": "https://ibb.co.com/8Xg7rT8",
+      "title": "Introduction to Machine Learning",
+      "author": "Michael Brown",
+      "author_img": "https://ibb.co.com/3h9xj7x",
+      "posted_date": "Mar 18",
+      "reading_time": 15,
+      "hashtags": ["#machinelearning", "#AI"]
+    },
+    {
+      "id": 5,
+      "cover": "https://ibb.co.com/PMgvgRm",
+      "title": "Advanced CSS Techniques",
+      "author": "Sarah Lee",
+      "author_img": "https://ibb.co.com/85Vzmf9",
+      "posted_date": "Mar 20",
+      "reading_time": 7,
+      "hashtags": ["#css", "#webdesign"]
+    }
+  ]
