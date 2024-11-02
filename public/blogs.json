@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "cover": "https://ibb.co.com/NYq3nSH",
+      "cover": "https://images.unsplash.com/photo-1517433456452-f9633a875f6f",
       "title": "Mastering JavaScript in 30 Days",
       "author": "Jane Doe",
       "author_img": "https://ibb.co.com/CJz85TB",
@@ -11,7 +11,7 @@
     },
     {
       "id": 2,
-      "cover": "https://ibb.co.com/174ndvt",
+      "cover": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45",
       "title": "Python for Data Science",
       "author": "John Smith",
       "author_img": "https://ibb.co.com/h8vv1Nz",
@@ -21,7 +21,7 @@
     },
     {
       "id": 3,
-      "cover": "https://ibb.co.com/tx2H6tP",
+      "cover": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
       "title": "Building Web Apps with React",
       "author": "Emily Johnson",
       "author_img": "https://ibb.co.com/74xM8zF",
@@ -31,7 +31,7 @@
     },
     {
       "id": 4,
-      "cover": "https://ibb.co.com/8Xg7rT8",
+      "cover": "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
       "title": "Introduction to Machine Learning",
       "author": "Michael Brown",
       "author_img": "https://ibb.co.com/3h9xj7x",
@@ -41,7 +41,7 @@
     },
     {
       "id": 5,
-      "cover": "https://ibb.co.com/PMgvgRm",
+      "cover": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
       "title": "Advanced CSS Techniques",
       "author": "Sarah Lee",
       "author_img": "https://ibb.co.com/85Vzmf9",
