@@ -1,36 +1,34 @@
-import React from 'react'
-import { useState } from 'react'
-import './App.css'
-import Blogs from './components/Blogs/Blogs'
-import Bookmarks from './components/Bookmarks/Bookmarks'
-import Header from './components/Header/Header'
-import { CgLaptop } from 'react-icons/cg'
+import React, { useState } from 'react';
+import './App.css';
+import Blogs from './components/Blogs/Blogs';
+import Bookmarks from './components/Bookmarks/Bookmarks';
+import Header from './components/Header/Header';
 
 function App() {
-  const [bookmarks, setBookmarks] = useState([]);
-  const [readingTime, setReadingTime] = useState(0)
+    const [bookmarks, setBookmarks] = useState([]);
+    const [readingTime, setReadingTime] = useState(0);
 
-  const handleAddToBookmark = blog =>{
-    const newBookmarks = [...bookmarks, blog];
-    setBookmarks(newBookmarks);
-  }
+    const handleAddToBookmark = (blog) => {
+        const newBookmarks = [...bookmarks, blog];
+        setBookmarks(newBookmarks);
+    };
 
-  const handleMarkAsRead = (id, time) => {
-    const newReadingTime = readingTime + time;
-    setReadingTime(newReadingTime);
-    const remainingBookmarks = bookmarks.filter (bookmark => bookmark.id !== id);
-    setBookmarks(remainingBookmarks);
-  }
+    const handleMarkAsRead = (id, time) => {
+        const newReadingTime = readingTime + time;
+        setReadingTime(newReadingTime);
+        const remainingBookmarks = bookmarks.filter(bookmark => bookmark.id !== id);
+        setBookmarks(remainingBookmarks);
+    };
 
-  return (
-    <>
-      <Header></Header>
-      <div className='flex max-w-7xl mx-auto'>
-      <Blogs handleAddToBookmark={handleAddToBookmark} handleMarkAsRead={handleMarkAsRead}></Blogs>
-      <Bookmarks bookmarks={bookmarks} readingTime={readingTime}></Bookmarks>
-      </div>
-    </>
-  )
+    return (
+        <>
+            <Header />
+            <div className='flex max-w-7xl mx-auto my-8'>
+                <Blogs handleAddToBookmark={handleAddToBookmark} handleMarkAsRead={handleMarkAsRead} />
+                <Bookmarks bookmarks={bookmarks} readingTime={readingTime} />
+            </div>
+        </>
+    );
 }
 
-export default App
+export default App;
