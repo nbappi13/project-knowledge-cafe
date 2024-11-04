@@ -1,10 +1,10 @@
 body {
-    background-color: #f0f4f8;
+    background-color: #f0f4f8; /* light blue */
     color: #333;
 }
 
 header {
-    background-color: #6b46c1;
+    background-color: #1e3a8a; /* dark blue */
     color: #fff;
 }
 
@@ -13,16 +13,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-    color: #6b46c1;
+    color: #1e3a8a; /* dark blue */
 }
 
 a:hover {
-    color: #4a00e0;
+    color: #0f172a; /* navy blue */
     text-decoration: underline;
 }
 
 .button {
-    background-color: #ff6b6b;
+    background-color: #1e3a8a; /* dark blue */
     color: #fff;
     padding: 0.5em 1em;
     border-radius: 5px;
@@ -30,5 +30,5 @@ a:hover {
 }
 
 .button:hover {
-    background-color: #ff4757;
+    background-color: #1d4ed8; /* mid blue */
 }

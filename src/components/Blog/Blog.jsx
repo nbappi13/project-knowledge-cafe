@@ -16,10 +16,10 @@ const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
             <div className='flex justify-between items-center mb-4'>
                 <h2 className="text-2xl font-bold">{title}</h2>
                 <div className='text-gray-500'>
-                    <span>{reading_time} min read </span>
+                    <span>{reading_time} minutes read </span>
                     <button
                         onClick={() => handleAddToBookmark(blog)}
-                        className='ml-2 text-red-600 text-lg'><FaBookmark />
+                        className='ml-2 text-indigo-600 text-lg'><FaBookmark />
                     </button>
                 </div>
             </div>
@@ -28,7 +28,7 @@ const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
             </p>
             <button
                 onClick={() => handleMarkAsRead(id, reading_time)}
-                className='mt-4 inline-block text-pink-700 font-bold underline'>Mark As Read</button>
+                className='mt-4 inline-block text-indigo-700 font-bold underline'>Mark As Read</button>
         </div>
     );
 };
