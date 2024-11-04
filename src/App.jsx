@@ -1,3 +1,5 @@
+import { HashRouter as Router } from 'react-router-dom';
+
 import React, { useState } from 'react';
 import './App.css';
 import Blogs from './components/Blogs/Blogs';
